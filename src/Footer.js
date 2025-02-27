@@ -11,11 +11,11 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Lindsey Flatt
+            Keresia karuma
           </a>
           , open-sourced on{" "}
           <a
-            href="https://github.com/liflatt/react-weather-app"
+            href="https://github.com/kersie30/react-weather-app-1"
             target="_blank"
             rel="noopener noreferrer"
           >
