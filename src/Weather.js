@@ -32,7 +32,7 @@ function getIcon(apiIcon) {
 }
 
 export default function Weather({
-  defaultCity = "Dallas",
+  defaultCity = "Cape Town",
   defaultUnit = "imperial",
 }) {
   const [city, setCity] = useState(defaultCity);
