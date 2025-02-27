@@ -42,7 +42,7 @@ export default function Weather({
   const [ready, setReady] = useState(false);
 
   const fetchWeather = useCallback((cityQuery, unit) => {
-    const apiKey = "b0452f91cd75631eoba398t0f42a2100";
+    const apiKey = "a5acb752426cd8188485c35694980e3a";
     const currentUrl = `https://api.shecodes.io/weather/v1/current?query=${cityQuery}&key=${apiKey}&units=${unit}`;
     const forecastUrl = `https://api.shecodes.io/weather/v1/forecast?query=${cityQuery}&key=${apiKey}&units=${unit}`;
 
